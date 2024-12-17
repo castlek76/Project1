@@ -21,14 +21,14 @@ a:hover {
 }
 
 .row {
-    display: flex;
-    border-top:0cm;
+    
+    border-top: 0cm;
     border-left:0cm;
     border-right:0cm;
     border-style: solid;
     border-color: #515151;
 }
-.column1 {
+.navbar-brand {
     flex: 50%;
     text-align: left;
     font-size: 30px;
@@ -38,7 +38,7 @@ a:hover {
     color: #515151;
 
 }
-.column2 {
+.nav-link {
     text-align: right;
     flex: 50%;
     font-size: 15;
@@ -59,10 +59,10 @@ a:hover {
  .two {
     margin-right:35%;
     margin-top: -4%;
+    padding-bottom: 2%;
     text-align: right;
     font-size: 10px;
     font-variant-caps:normal;
-    line
     text-transform: uppercase;
     font-weight: 500;
     color:#515151;
